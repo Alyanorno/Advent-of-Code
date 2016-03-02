@@ -19,8 +19,7 @@ test-suite test-AdventOfCode
   type: exitcode-stdio-1.0
   main-is: testAdventOfCode.hs
   other-modules: AdventOfCode
-  ghc-options: -fno-warn-tabs
+  ghc-options: -w
   build-depends: template-haskell, MissingH, QuickCheck, test-framework, test-framework-quickcheck2, base >=4.8 && <4.9
-  ghc-options: -fno-warn-tabs
   default-language: Haskell2010
 
